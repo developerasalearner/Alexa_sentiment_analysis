@@ -11,6 +11,7 @@ Two different models were implemented and evaluated for sentiment classification
 1. Multinomial Naive Bayes: This model is a probabilistic classifier based on Bayes' theorem. It assumes that the features are conditionally independent given the class. The Multinomial Naive Bayes algorithm was chosen for its simplicity and effectiveness in handling text data.
 
 Accuracy: 87.30%
+
 2. LinearSVC (Support Vector Classifier): This model uses support vectors to create a decision boundary that separates the positive and negative sentiment classes. LinearSVC was selected due to its ability to handle high-dimensional data and its robustness against overfitting.
 
 Accuracy: 93.65%
